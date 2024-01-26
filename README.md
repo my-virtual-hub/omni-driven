@@ -1,4 +1,4 @@
-# Omni Drivenn (Infrastructure)
+# Omni Driven (Infrastructure)
 
 The "omni-driven" module serves as the infrastructure layer within the Omni project, focusing on providing essential support and resources for the overall system operation. This module plays a foundational role in facilitating communication and interaction between the application and external systems, ensuring seamless integration and interoperability.
 
