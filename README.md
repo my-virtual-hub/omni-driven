@@ -1,14 +1,10 @@
-# Omni Driven (Infrastructure)
+# Omni Drivers (Applications)
 
-The "omni-driven" module represents the infrastructure layer of the Omni project, serving as the foundation for all technical operations and interactions. This module is responsible for providing the necessary support and integration with external systems, databases, web services, and other technological resources.
+The "omni-driven" module serves as the infrastructure layer within the Omni project, focusing on providing essential support and resources for the overall system operation. This module plays a foundational role in facilitating communication and interaction between the application and external systems, ensuring seamless integration and interoperability.
 
-In "omni-driven", the focus is on implementing adapters and interfaces that facilitate communication between the Omni application and the outside world. This includes the management of database connections, API integrations, and handling of external data sources. By effectively managing these aspects, the module ensures that the application remains robust, secure, and adaptable to different environments.
+Within the "omni-driven" module, the primary objective is to manage external dependencies, including databases, external services, and communication protocols. It encapsulates infrastructure-related concerns such as data access, configuration management, and communication protocols, abstracting them from the core application logic.
 
-The infrastructure provided by the "omni-driven" module is designed for high performance and reliability. It incorporates modern practices and technologies to ensure that the system can handle large volumes of data and complex operations with ease. This module also plays a key role in maintaining the scalability of the Omni project, allowing it to grow and evolve without compromising on performance.
-
-Moreover, "omni-driven" contributes to the overall maintainability of the application by abstracting technical complexities. Developers can focus on business logic and application development, while the infrastructure layer handles the technical details. This separation of concerns leads to cleaner, more manageable code, and easier deployment and management processes.
-
-In conclusion, the "omni-driven" module is a critical component of the Omni project, providing a robust and efficient infrastructure layer. It underpins the entire application, ensuring seamless integration and operation, and supporting the project's long-term success and adaptability.
+In summary, the "omni-driven" module serves as the backbone of the Omni project's infrastructure layer, providing a robust and scalable foundation for the entire system. Its design and implementation are crucial for ensuring the reliability, performance, and maintainability of the system, enabling seamless integration with external systems and efficient operation in diverse environments.
 
 ## Installation
 
@@ -26,7 +22,7 @@ This project operates independently and its progression depends on availability 
 ## Using SonarCloud and Qodana for Code Quality
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-driven)
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-driven)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-driven)  [![Qodana](https://github.com/my-virtual-hub/omni-driven/actions/workflows/qodana.yml/badge.svg?branch=main)](https://github.com/my-virtual-hub/omni-driven/actions/workflows/qodana.yml)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-driven)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-driven) [![Pipeline](https://github.com/my-virtual-hub/omni-ports-outbound/actions/workflows/pipeline.yaml/badge.svg)](https://github.com/my-virtual-hub/omni-ports-outbound/actions/workflows/pipeline.yaml)
 
 | Quality Metrics | Code Metrics | Security Metrics |
 |---|---|---|
@@ -38,13 +34,7 @@ This project operates independently and its progression depends on availability 
 
 ## License
 
-This software is governed by the BSD 2-Clause License. This is a free software license with minimal restrictions on redistribution, providing flexibility for both private and commercial use. The BSD license is compatible with many other open source licenses, making it a popular choice for software distribution.
-
-For more information about the BSD 2-Clause License and its terms, please visit the official license link:
-
-[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
-
-![Approved License](images/approved-license.png)
+Omni Communicator is Open Source software released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Contact
 
